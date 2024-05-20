@@ -299,8 +299,13 @@ tr:not(.zahlavi):nth-child(even of .lbn:not([style*="display: none"]):not(.hide-
 }
 
 ol.breadcrumb {
-    background-color: #1d2127 !important;
+    background-color: #232931  !important;
+    border-radius: 8px 0 0 8px;
 }
 ol.breadcrumb > li {
    list-style: none !important
+}
+.helpinbreadcrumbs {
+    background-color: #232931  !important;
+    border-radius: 0 8px 8px 0;
 }
