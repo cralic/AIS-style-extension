@@ -297,3 +297,10 @@ tr:not(.zahlavi):nth-child(even of .lbn:not([style*="display: none"]):not(.hide-
 tr:not(.zahlavi):nth-child(even of .lbn:not([style*="display: none"]):not(.hide-row):not([hidden])):hover{
     background-color: #454a53 !important;
 }
+
+ol.breadcrumb {
+    background-color: #1d2127 !important;
+}
+ol.breadcrumb > li {
+   list-style: none !important
+}
